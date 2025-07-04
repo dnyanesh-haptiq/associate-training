@@ -9,14 +9,16 @@ a {
     text-decoration: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
 .container {
     max-width: 1300px;
     margin: 0 auto;
-}
-
-.header {
-    max-width: 100%;
-    margin: 20px auto;
 }
 
 .header > .container {
@@ -40,7 +42,7 @@ a {
     list-style: none;
     display: flex;
     flex: 1;
-    gap: 32px;
+    gap: 38px;
 }
 
 .header > .container .links-wrapper a {
@@ -71,8 +73,10 @@ a {
 }
 
 .hero {
-    margin: 48px auto;
     max-width: 628px;
+    text-align: center;
+
+    margin: 0px auto;
 }
 
 .hero .hero-heading {
@@ -102,9 +106,6 @@ a {
 }
 
 .cards {
-    margin: 0 auto;
-    max-width: 1300px;
-    
     display: flex;
     text-align: center;
     justify-content: space-between;
