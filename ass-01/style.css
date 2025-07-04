@@ -9,11 +9,12 @@ a {
     text-decoration: none;
 }
 
-body {
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100vh;
+    min-height: 90vh;
+    margin: 20px 0;
 }
 
 .container {
@@ -46,7 +47,7 @@ body {
 }
 
 .header > .container .links-wrapper a {
-    color: rgba(21, 20, 57, 0.4);
+    color: #15143966;
     font-weight: 500;
     font-size: 18px;
 }
@@ -75,7 +76,6 @@ body {
 .hero {
     max-width: 628px;
     text-align: center;
-
     margin: 0px auto;
 }
 
