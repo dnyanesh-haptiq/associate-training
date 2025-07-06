@@ -34,6 +34,10 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 }
 
 .headerLinks {
@@ -53,13 +57,12 @@ hr {
 
 .hero-wrapper {
   max-width: 100%;
-  padding: 124px 0;
+  padding: 130px 0;
 }
 
 .hero-wrapper .heading {
   font-size: 58px;
   font-weight: 700;
-
   margin-bottom: 32px;
 }
 
@@ -136,7 +139,7 @@ hr {
 }
 
 .recentPosts .cards .card .cardHeading {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 700;
   margin-bottom: 24px;
 }
@@ -183,7 +186,7 @@ hr {
 .blog .blogContent .blogHeading {
     display: inline-block;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 34px;
     margin-bottom: 14px;
 }
 
