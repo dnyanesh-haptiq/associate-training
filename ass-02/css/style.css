@@ -23,6 +23,12 @@ hr {
   border: 0.5px solid #8695A4;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -55,22 +61,22 @@ hr {
   font-size: 20px;
 }
 
-.hero-wrapper {
+.heroWrapper {
   max-width: 100%;
   padding: 130px 0;
 }
 
-.hero-wrapper .heading {
+.heroWrapper .heading {
   font-size: 58px;
   font-weight: 700;
   margin-bottom: 32px;
 }
 
-.hero-wrapper .description {
+.heroWrapper .description {
   margin-bottom: 32px;
 }
 
-.hero-wrapper .downloadButton {
+.heroWrapper .downloadButton {
   display: inline-block;
   background-color: #ff6464;
   color: #fff;
@@ -80,7 +86,7 @@ hr {
   border-radius: 48px;
 }
 
-.hero-wrapper .downloadButton:hover {
+.heroWrapper .downloadButton:hover {
     background-color: #b33a3a;
 }
 
@@ -160,7 +166,7 @@ hr {
   display: flex;
   gap: 34px;
   padding: 24px 0;
-  border-bottom: 2px solid #E0E0E0;
+  /* border-bottom: 2px solid #E0E0E0; */
 }
 
 .blog .blogImage {
@@ -171,11 +177,6 @@ hr {
   overflow: hidden;
 }
 
-.blog .blogImage img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .blog .blogContent {
     display: flex;
@@ -227,7 +228,7 @@ footer .socialIcons {
 }
 
 footer .socialIcon {
-    font-size: 34px;
+    font-size: 30px;
 }
 
 footer .socialIcon:hover {
@@ -238,3 +239,8 @@ footer .socialIcon:hover {
 footer .privacyCopyrightText p{
   font-size: 16px;
 }
+
+/* 
+font size should same as design
+hirerachy changes
+*/
