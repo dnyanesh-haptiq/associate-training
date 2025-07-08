@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #21243d;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #fff;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+  background-color: transparent;
+}
+
+.navLinks ul {
+  display: flex;
+  gap: 18px;
+}
+
+.navLinks ul li a {
+  padding: 8px 16px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  border-radius: 100px;
+  border: 1px solid transparent;
+}
+
+.navLinks ul li .active,
+.navLinks ul li a:hover {
+  border: 1px solid #fff;
+}
+
+.banner {
+  background: url("./../images/8425c8899856ebad2d94ab5ec04d59246c7257b3.jpg");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -94px;
+}
+
+.innerBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+}
+
+.innerBanner p {
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+.bannerBtn {
+  background-color: #6c00ff;
+  color: #fff;
+  padding: 16px 32px;
+  font-weight: 600;
+  border-radius: 32px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#services, #features {
+  padding: 120px 0;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #6C00FF;
+    margin-bottom: 16px;
+}
+
+h2 {
+  color: #222831;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.card {
+  text-align: center;
+}
+
+.iconWrapper {
+  overflow: hidden;
+  margin-bottom: 64px;
+}
+
+.card .icon {
+  border-radius: 100%;
+  padding: 42px;
+  color: #fff;
+  font-size: 48px;
+  background-color: #6c00ff;
+}
+
+.card h3 {
+    margin-bottom: 16px;
+}
+
+.card p {
+    color: #393E46;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 0;
+}
+
+.featureImage {
+    width: 475px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 34px 34px 0 0 #6C00FF;
+}
