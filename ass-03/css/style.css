@@ -82,7 +82,7 @@ h2 {
 }
 
 .banner {
-  background: url("./../images/8425c8899856ebad2d94ab5ec04d59246c7257b3.jpg");
+  background: url("./../images/banner-background.png");
   background-repeat: no-repeat;
   background-position: 0;
   background-size: cover;
@@ -117,7 +117,7 @@ h2 {
 }
 
 #services, #features {
-  padding: 120px 0;
+  margin-bottom: 120px;
 }
 
 .sectionHeading {
@@ -142,7 +142,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
+  gap: 128px;
 }
 
 .card {
@@ -174,7 +174,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 64px 0;
+    gap: 128px;
+    margin: 128px 0;
 }
 
 .featureImage {
@@ -188,7 +189,7 @@ h2 {
   flex-flow: row-reverse;
 }
 
-.inverseFeatureImage {
+.inverse .featureImage {
   box-shadow: -34px -34px 0 0 #6C00FF;
 }
 
@@ -216,7 +217,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 32px;
 }
 
 footer .logo a {
