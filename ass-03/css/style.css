@@ -34,6 +34,12 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 44px;
+  margin-bottom: 32px;
+}
+
 .icon {
   font-size: 24px;
 }
@@ -49,6 +55,12 @@ h1 {
   justify-content: space-between;
   padding: 32px 0;
   background-color: transparent;
+}
+
+.logo a {
+  font-size: 34px;
+  font-weight: 900;
+  color: #fff;
 }
 
 .navLinks ul {
@@ -75,7 +87,7 @@ h1 {
   background-position: 0;
   background-size: cover;
   height: 100vh;
-  margin-top: -94px;
+  margin-top: -105px;
 }
 
 .innerBanner {
@@ -170,4 +182,53 @@ h2 {
     height: 400px;
     overflow: hidden;
     box-shadow: 34px 34px 0 0 #6C00FF;
+}
+
+.inverse {
+  flex-flow: row-reverse;
+}
+
+.inverseFeatureImage {
+  box-shadow: -34px -34px 0 0 #6C00FF;
+}
+
+.featureContent p {
+  margin-bottom: 32px;
+  color: #393E46;
+}
+
+.benefits li {
+  margin-bottom: 16px;
+  color: #393E46;
+}
+
+.benefits li i {
+  color: #6C00FF;
+  font-size: 16px;
+  margin-right: 3px;
+}
+
+footer {
+  margin: 128px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+footer .logo a {
+  color: #6C00FF;
+}
+
+footer .footerLinks li a{
+  color:#393E46;
+  border: none; 
+}
+
+.footerLinks ul li .active,
+.footerLinks ul li a:hover {
+  border: none;
 }
