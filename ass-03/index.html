@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -37,7 +37,7 @@
       </div>
     </header>
 
-    <section class="banner">
+    <section id="banner" class="banner">
       <div class="container innerBanner">
         <div>
           <h1>Perfect Landing Page<br />Design Tutorial</h1>
@@ -47,7 +47,13 @@
             ad minim veniam.
           </p>
           <a href="#" class="bannerBtn">
-            <i class="fa fa-play-circle icon" aria-hidden="true"></i>
+            <!-- <i class="fa fa-play-circle icon" aria-hidden="true"></i> -->
+            <!-- <img src="./images/play-icon.svg" width="24px" height="24px" alt="" /> -->
+            <object
+              data="./images/play-icon.svg"
+              width="24"
+              height="24"
+            ></object>
             <span>Watch Intro</span>
           </a>
         </div>
@@ -65,19 +71,10 @@
           <li class="card">
             <div class="iconWrapper">
               <!-- <i class="fa fa-mobile icon"></i> -->
-              <svg
-                class="icon"
-                width="28"
-                height="34"
-                viewBox="0 0 28 34"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M21.0666 0.333252H6.93329C2.33329 0.333252 0.666626 1.99992 0.666626 6.68325V27.3166C0.666626 31.9999 2.33329 33.6666 6.93329 33.6666H21.05C25.6666 33.6666 27.3333 31.9999 27.3333 27.3166V6.68325C27.3333 1.99992 25.6666 0.333252 21.0666 0.333252ZM14 29.1666C12.4 29.1666 11.0833 27.8499 11.0833 26.2499C11.0833 24.6499 12.4 23.3333 14 23.3333C15.6 23.3333 16.9166 24.6499 16.9166 26.2499C16.9166 27.8499 15.6 29.1666 14 29.1666ZM17.3333 7.41658H10.6666C9.98329 7.41658 9.41663 6.84992 9.41663 6.16658C9.41663 5.48325 9.98329 4.91658 10.6666 4.91658H17.3333C18.0166 4.91658 18.5833 5.48325 18.5833 6.16658C18.5833 6.84992 18.0166 7.41658 17.3333 7.41658Z"
-                  fill="white"
-                />
-              </svg>
+              <!-- <img src="./images/mobile-icon.svg" class="icon" alt="" /> -->
+              <span class="icon">
+                <object data="./images/mobile-icon.svg" type=""></object>
+              </span>
             </div>
             <h3>Mobile App Design</h3>
             <p>
@@ -89,19 +86,9 @@
           <li class="card">
             <div class="iconWrapper">
               <!-- <i class="fa fa-television icon" aria-hidden="true"></i> -->
-              <svg
-                class="icon"
-                width="34"
-                height="34"
-                viewBox="0 0 34 34"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M26.2666 0.333252H7.68331C3.63331 0.333252 0.333313 3.63325 0.333313 7.68325V18.5166V18.8499C0.333313 22.9166 3.63331 26.1999 7.68331 26.1999H14.0833C15 26.1999 15.75 26.9499 15.75 27.8666V29.4833C15.75 30.3999 15 31.1499 14.0833 31.1499H10.05C9.36665 31.1499 8.79998 31.7166 8.79998 32.3999C8.79998 33.0833 9.34998 33.6666 10.05 33.6666H23.9666C24.65 33.6666 25.2166 33.0999 25.2166 32.4166C25.2166 31.7333 24.65 31.1666 23.9666 31.1666H19.9333C19.0166 31.1666 18.2666 30.4166 18.2666 29.4999V27.8833C18.2666 26.9666 19.0166 26.2166 19.9333 26.2166H26.2833C30.35 26.2166 33.6333 22.9166 33.6333 18.8666V18.5333V7.69992C33.6166 3.63325 30.3166 0.333252 26.2666 0.333252Z"
-                  fill="white"
-                />
-              </svg>
+              <span class="icon">
+                <object data="./images/computer-icon.svg" type=""></object>
+              </span>
             </div>
             <h3>Website Design</h3>
             <p>
@@ -113,20 +100,9 @@
           <li class="card">
             <div class="iconWrapper">
               <!-- <i class="fa fa-cube icon" aria-hidden="true"></i> -->
-
-              <svg
-                class="icon"
-                width="17"
-                height="23"
-                viewBox="0 0 17 23"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.9505 9.56492V20.9316C0.9505 22.1983 2.23383 23.0316 3.36717 22.4816C6.8005 20.7983 12.5838 17.6483 12.5838 17.6483C14.6172 16.4983 16.2838 13.5983 16.2838 11.2149V2.61492C16.2838 1.29825 14.9005 0.46492 13.7672 1.11492L1.78383 8.06492C1.28383 8.38159 0.9505 8.94825 0.9505 9.56492Z"
-                  fill="white"
-                />
-              </svg>
+              <span class="icon">
+                <object data="./images/cube-icon.svg" type=""></object>
+              </span>
             </div>
             <h3>Packaging Design</h3>
             <p>
@@ -151,15 +127,24 @@
 
             <ul class="benefits">
               <li>
-                <i class="fa fa fa-check-circle-o" aria-hidden="true"></i>
+                <!-- <i class="fa fa fa-check-circle-o" aria-hidden="true"></i> -->
+                <span class="icon">
+                  <object data="./images/check-icon.svg" type=""></object>
+                </span>
                 <span>Some cool features</span>
               </li>
               <li>
-                <i class="fa fa fa-check-circle-o" aria-hidden="true"></i>
+                <!-- <i class="fa fa fa-check-circle-o" aria-hidden="true"></i> -->
+                <span class="icon">
+                  <object data="./images/check-icon.svg" type=""></object>
+                </span>
                 <span>About the product</span>
               </li>
               <li>
-                <i class="fa fa fa-check-circle-o" aria-hidden="true"></i>
+                <!-- <i class="fa fa fa-check-circle-o" aria-hidden="true"></i> -->
+                <span class="icon">
+                  <object data="./images/check-icon.svg" type=""></object>
+                </span>
                 <span>Which will amazed you</span>
               </li>
             </ul>
@@ -184,15 +169,24 @@
 
             <ul class="benefits">
               <li>
-                <i class="fa fa fa-check-circle-o" aria-hidden="true"></i>
+                <!-- <i class="fa fa fa-check-circle-o" aria-hidden="true"></i> -->
+                <span class="icon">
+                  <object data="./images/check-icon.svg" type=""></object>
+                </span>
                 <span>Some cool features</span>
               </li>
               <li>
-                <i class="fa fa fa-check-circle-o" aria-hidden="true"></i>
+                <!-- <i class="fa fa fa-check-circle-o" aria-hidden="true"></i> -->
+                <span class="icon">
+                  <object data="./images/check-icon.svg" type=""></object>
+                </span>
                 <span>About the product</span>
               </li>
               <li>
-                <i class="fa fa fa-check-circle-o" aria-hidden="true"></i>
+                <!-- <i class="fa fa fa-check-circle-o" aria-hidden="true"></i> -->
+                <span class="icon">
+                  <object data="./images/check-icon.svg" type=""></object>
+                </span>
                 <span>Which will amazed you</span>
               </li>
             </ul>

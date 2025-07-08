@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -87,7 +87,8 @@ h2 {
   background-position: 0;
   background-size: cover;
   height: 100vh;
-  margin-top: -105px;
+  margin-top: -106px;
+  margin-bottom: 128px;
 }
 
 .innerBanner {
@@ -110,14 +111,14 @@ h2 {
   padding: 16px 32px;
   font-weight: 600;
   border-radius: 32px;
-
   display: inline-flex;
   align-items: center;
   gap: 16px;
 }
 
-#services, #features {
-  margin-bottom: 120px;
+#services,
+#features {
+  margin-bottom: 128px 0;
 }
 
 .sectionHeading {
@@ -126,10 +127,10 @@ h2 {
 }
 
 h4 {
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    color: #6C00FF;
-    margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #6c00ff;
+  margin-bottom: 16px;
 }
 
 h2 {
@@ -142,7 +143,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 128px;
 }
 
 .card {
@@ -155,34 +155,36 @@ h2 {
 }
 
 .card .icon {
-  border-radius: 100%;
   padding: 42px;
   color: #fff;
   font-size: 48px;
+  border-radius: 100px;
   background-color: #6c00ff;
+  border: 1px solid #fff;
+  display: inline-flex;
 }
 
 .card h3 {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .card p {
-    color: #393E46;
+  color: #393e46;
 }
 
 .feature {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 128px;
-    margin: 128px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 128px;
+  margin: 128px 0;
 }
 
 .featureImage {
-    width: 475px;
-    height: 400px;
-    overflow: hidden;
-    box-shadow: 34px 34px 0 0 #6C00FF;
+  width: 475px;
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 34px 34px 0 0 #6c00ff;
 }
 
 .inverse {
@@ -190,27 +192,27 @@ h2 {
 }
 
 .inverse .featureImage {
-  box-shadow: -34px -34px 0 0 #6C00FF;
+  box-shadow: -34px -34px 0 0 #6c00ff;
 }
 
 .featureContent p {
   margin-bottom: 32px;
-  color: #393E46;
+  color: #393e46;
 }
 
 .benefits li {
   margin-bottom: 16px;
-  color: #393E46;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.benefits li i {
-  color: #6C00FF;
-  font-size: 16px;
-  margin-right: 3px;
+.benefits li img {
+  object-fit: cover;
 }
 
 footer {
-  margin: 128px 0;
+  margin-bottom: 128px;
 }
 
 .footer {
@@ -221,15 +223,14 @@ footer {
 }
 
 footer .logo a {
-  color: #6C00FF;
+  color: #6c00ff;
 }
 
-footer .footerLinks li a{
-  color:#393E46;
-  border: none; 
+footer .footerLinks li a {
+  color: #393e46;
+  border: none;
 }
 
-.footerLinks ul li .active,
-.footerLinks ul li a:hover {
+.footerLinks ul li .active, .footerLinks ul li a:hover {
   border: none;
 }
