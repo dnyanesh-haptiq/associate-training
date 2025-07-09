@@ -255,13 +255,13 @@ h2  {
   color: #fff;
 }
 
-.industryBoxTwo {
+.industry {
   background-color: #252b42;
 }
 
 .industryBoxTwo .blogImageWrapper {
   position: relative;
-  width: 330px;
+  max-width: 330px;
   height: 450px;
   overflow: hidden;
 }
