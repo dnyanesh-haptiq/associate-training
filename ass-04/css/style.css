@@ -28,13 +28,14 @@ img {
 
 h3 {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .header {
@@ -46,8 +47,11 @@ h3 {
   /* padding: 30px auto; */
 }
 
-.header .left,
-.header .right {
+.hamburgerBtn {
+  display: none;
+}
+
+.header .left, .header .right {
   display: flex;
   align-items: center;
 }
@@ -94,11 +98,13 @@ h3 {
 
 .banner {
   background: url("./../images/hero.jpg");
+
   width: 100%;
   object-fit: cover;
 
   background-repeat: no-repeat;
-  background-position: 0;
+  background-position: center;
+  background-origin: 0;
   background-size: cover;
   height: 100vh;
   margin-top: -113px;
@@ -108,7 +114,6 @@ h3 {
   height: 100%;
   width: 100%;
 
-  background: #252b42;
   background: linear-gradient(
     90deg,
     rgb(0, 0, 0) 0%,
@@ -213,16 +218,16 @@ h1 {
 
 .industryBoxOne,
 .industryBoxTwo {
-  padding: 112px 0;
+  padding: 112px 24px;
   text-align: center;
 }
 
 .industryBoxOne .cards {
-  display: grid;
-  grid-template-columns: auto auto;
-  /* display: flex;
+  /* display: grid;
+  grid-template-columns: auto auto; */
+  display: flex;
   align-items: center;
-  justify-content: space-between; */
+  justify-content: space-between;
   gap: 80px;
 }
 
@@ -230,7 +235,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 30px 30px;
   padding: 0 15px;
 }
 
@@ -301,6 +306,30 @@ h4 {
 
 /* FOOTER */
 
+.contactUs .contactUsInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 20px;
+}
+
+.contactUs h4 {
+  color: #252b42;
+  font-size: 24px;
+  font-weight: 700;
+  /* margin-bottom: 0; */
+}
+
+.contactUsBtn {
+  font-weight: 700;
+  padding: 15px 40px;
+  color: #fff;
+}
+.contactUsInner p {
+  color: #737373;
+  margin-bottom: 30px;
+}
+
 footer {
   background-color: #252b42;
 }
@@ -310,7 +339,8 @@ footer * {
 }
 
 .footerLinks {
-  columns: auto 5;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
   padding: 50px 0;
   gap: 30px;
 }
@@ -324,3 +354,22 @@ footer * {
   align-items: center;
   gap: 10px;
 }
+
+.footerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.footerBox .footerSocialLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/* 
+1024
+
+*/
