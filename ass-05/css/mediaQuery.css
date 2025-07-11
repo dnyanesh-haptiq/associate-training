@@ -1,0 +1,85 @@
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .header {
+    padding: 16px 32px;
+  }
+
+  .header .logo a {
+    font-size: 18px;
+  }
+
+  .headerLinks a {
+    font-size: 14px;
+  }
+
+  .header nav {
+    display: none;
+  }
+
+  .menuIcon {
+    display: inline-block;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    flex-flow: column-reverse;
+    gap: 34px;
+  }
+
+  .hero .heroImage {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: -12px 12px 0 0 #edf7fa;
+  }
+
+  .recentPostsHeader,
+  .featuredWorksHeader {
+    justify-content: center;
+  }
+
+  .recentPostsHeader .viewAllBtn {
+    display: none;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .cards .card .cardDescription {
+    font-size: 16px;
+  }
+
+  .blog {
+    flex-direction: column;
+  }
+
+  .blog .blogImage {
+    max-width: 100%;
+  }
+
+  .blog .blogContent .blogHeading {
+    font-size: 24px;
+  }
+
+  .blog .blogContent .blogYear,
+  .blog .blogContent .blogHashTag {
+    font-size: 16px;
+  }
+
+  footer .socialIcon {
+    font-size: 40px;
+  }
+}
