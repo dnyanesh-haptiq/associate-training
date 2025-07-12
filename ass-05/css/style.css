@@ -108,8 +108,8 @@ h1 {
 }
 
 .hero .heroImage {
-  width: 350px;
-  height: 350px;
+  width: 340px;
+  height: 340px;
   overflow: hidden;
   border-radius: 100%;
   box-shadow: -12px 12px 0 0 #edf7fa;
