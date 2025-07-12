@@ -51,6 +51,10 @@ p {
   padding: 0 32px;
 }
 
+.hamburgerIcon {
+  display: none;
+}
+
 .primaryBtn {
   display: inline-block;
   padding: 10px 50px;

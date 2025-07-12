@@ -1,0 +1,73 @@
+@media screen and (max-width: 991px) {
+    .navbar {
+        display: none;
+    }
+
+    .hamburgerIcon {
+        display: inline-block;
+    }
+
+    .services .cards .card {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .partnerContent .partnerLogos {
+        /* display: grid;
+        grid-template-columns: auto auto auto; */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 34px;
+    }
+
+    /* .partnerLogos .partnerLogo {
+        width: 80%;
+    } */
+
+    .plans {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+
+    .team .teamMembers {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer .inner {
+        flex-direction: column;
+    }
+
+    .footer .socialLogos {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header .logo {
+        width: 128px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .bannerContent {
+        flex-direction: column-reverse;
+    }
+
+    .team .teamMembers {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .plans {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
