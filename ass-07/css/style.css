@@ -1,4 +1,4 @@
-.bg-green {
+.bgGreen {
   background-color: #74c69d;
 }
 
@@ -20,4 +20,8 @@ h3 {
   font-family: "Crimson Text", sans-serif;
   font-size: 24px;
   margin-bottom: 15px;
+}
+
+.letterSpacing {
+  letter-spacing: 5px;
 }
