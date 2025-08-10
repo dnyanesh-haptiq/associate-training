@@ -6,7 +6,7 @@ const FeaturedProducts = ({ products }) => {
 
     const newProducts = products?.filter((product) => product.isNew);
     const bestProducts = products?.filter((product) => product.rating >= 3 && product.rating <5);
-    const topProducts = products?.filter((product) => product.rating == 5);
+    const topProducts = products?.filter((product) => product.rating === 5);
 
     return (
         <section className="w-full">

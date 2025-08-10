@@ -15,7 +15,7 @@ export const cartSlice = createSlice({
             const existProduct = state.items.find((item) => item._id === action.payload._id);
 
             if(!existProduct) {
-                state.items = [...state.items, action.payload];
+                state.items = [...state.items, { ...action.payload, quantity: 1 }];
                 state.size++;
                 return;
             }

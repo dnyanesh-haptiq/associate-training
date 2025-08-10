@@ -26,7 +26,7 @@ const Header = () => {
             <Link to={"/wishlist"} className="relative">
               <LuHeart size={20} />
 
-              {wishlist.size != 0 && <div className="absolute -top-1 -right-2 bg-blue-700 rounded-full text-white text-xs px-1">
+              {wishlist.size !== 0 && <div className="absolute -top-1 -right-2 bg-blue-700 rounded-full text-white text-xs px-1">
                 <span>{wishlist.size}</span>
               </div>}
             </Link>
@@ -34,7 +34,7 @@ const Header = () => {
             <Link to={"/cart"} className="relative">
             
               <LuShoppingCart size={20} />
-              {cart.size != 0 && <div className="absolute -top-1 -right-2 bg-blue-700 rounded-full text-white text-xs px-1">
+              {cart.size !== 0 && <div className="absolute -top-1 -right-2 bg-blue-700 rounded-full text-white text-xs px-1">
                 <span>{cart.size}</span>
               </div>}
             </Link>
