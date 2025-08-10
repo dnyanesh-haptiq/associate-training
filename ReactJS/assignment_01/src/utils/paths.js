@@ -25,13 +25,13 @@ export const features = [{
     id: 2,
     icon: PiHandshakeLight,
     title: "Secure Payment",
-    description: "We ensure sucure payment"
+    description: "We ensure secure payment"
 },
 {
     id: 3,
     icon: FaHandHoldingDollar,
     title: "Secure Payment",
-    description: "We ensure sucure payment"
+    description: "We ensure secure payment"
 },
 {
     id: 4,

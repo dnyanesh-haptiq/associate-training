@@ -8,7 +8,7 @@ import { addToWishlist } from '../redux/slices/wishlist.slice';
 
 const Productpage = () => {
     const product = useLoaderData();
-    const dispach = useDispatch();
+    const dispatch = useDispatch();
 
     return (
         <section className="w-full">
@@ -75,7 +75,7 @@ const Productpage = () => {
                     </div>
 
                     <div>
-                        <button onClick={() => dispach(addToCart(product))} className='flex items-center gap-3 bg-blue-700 px-10 py-4 my-8 text-md font-semibold hover:bg-blue-600 text-white rounded-xl cursor-pointer shadow-xl shadow-blue-100'>
+                        <button onClick={() => dispatch(addToCart(product))} className='flex items-center gap-3 bg-blue-700 px-10 py-4 my-8 text-md font-semibold hover:bg-blue-600 text-white rounded-xl cursor-pointer shadow-xl shadow-blue-100'>
                             <LuShoppingCart size={24} />
                             <span>Add to cart</span>
                         </button>
@@ -83,7 +83,7 @@ const Productpage = () => {
 
                     <div className='py-3 flex gap-4'>
                         <button
-                            onClick={() => dispach(addToWishlist(product))}
+                            onClick={() => dispatch(addToWishlist(product))}
                             className='flex items-center gap-2 py-3 px-6 bg-gray-100 rounded-xl cursor-pointer'
                             >
                                 <BsHeartFill size={22} />

@@ -31,8 +31,8 @@ export const cartSlice = createSlice({
         getTotalAmount: (state) => {
             let sum = 0;
 
-            state.items.map((item) => {
-                sum += (item.price * 1 || item.quantity);
+            state.items.forEach((item) => {
+                sum += (item.price * item.quantity);
             })
 
             state.totalAmount = sum;
