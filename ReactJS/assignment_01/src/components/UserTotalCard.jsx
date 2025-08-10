@@ -5,13 +5,13 @@ import CheckoutButton from './CheckoutButton';
 
 const UserTotalCard = () => {
     const { totalAmount, items, size } = useSelector(state => state.cart);
-    const dispach = useDispatch();
+    const dispatch = useDispatch();
 
     const isAuthenticated = true;
 
     useEffect(() => {
-        dispach(getTotalAmount());
-    }, [dispach]);
+        dispatch(getTotalAmount());
+    }, [dispatch]);
 
     return (
         <div className='p-4 bg-gray-100 w-xl'>

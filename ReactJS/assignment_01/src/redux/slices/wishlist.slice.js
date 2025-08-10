@@ -11,17 +11,13 @@ export const wishlistSlice = createSlice({
     initialState,
     reducers: {
         addToWishlist: (state, action) => {
-            const existProduct = state.items.find((item) => item._id == action.payload._id);
+            const existProduct = state.items.find((item) => item._id === action.payload._id);
 
             if(!existProduct) {
                 state.items = [...state.items, action.payload];
                 state.size++;
                 return;
             }
-
-            state.items = state.items.map((item) => {
-                return item._id === action.payload._id ? { ...item, quantity: item.quantity + 1 } : item;
-            });
         },
 
         removeFromWishlist: (state, action) => {
